@@ -1,0 +1,26 @@
+{
+  "name": "holywords-node",
+  "version": "1.0.0",
+  "description": "WhatsApp AI Bot with Christian guidance",
+  "main": "server.js",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.2",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.57.0",
+    "stripe": "^16.8.0",
+    "whatsapp-cloud-api": "^0.3.1",
+    "winston": "^3.14.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["whatsapp", "ai", "christian", "bot"],
+  "author": "",
+  "license": "ISC"
+}
